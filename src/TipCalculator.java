@@ -16,9 +16,8 @@ public class TipCalculator {
         double tipPercent = (double) scan.nextInt()/100;
         scan.nextLine();
 
-        double totalBillNoTip = 0; // Initalize Variables for the while loop
+        double totalBillNoTip = 0; // Initialize Variables for the while loop
         double userInput = 0;
-//dg
         while (userInput != -1) { // Make it so loop ends when -1 is entered
             totalBillNoTip += userInput;
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end): ");
